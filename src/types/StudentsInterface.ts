@@ -1,9 +1,9 @@
-interface GroupInterface {
+interface StudentsInterface {
   id: number;
-  first_name: string;
-  last_name: string;
-  middle_name: string;
+  firstName: string;
+  lastName: string;
+  middleName: string;
   groupId: number
 };
 
-export default GroupInterface;
+export default StudentsInterface;
