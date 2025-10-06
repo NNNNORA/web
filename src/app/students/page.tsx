@@ -1,5 +1,6 @@
 import Groups from '@/components/Groups/Groups';
 import Page from '@/components/layout/Page/Page';
+import Students from '@/components/Students/Students';
 import { type Metadata } from 'next/types';
 
 export const metadata: Metadata = {
@@ -7,11 +8,11 @@ export const metadata: Metadata = {
   description: 'Шаблон для веб-разработки с использованием Next.js, React Hook Form, Yup, SCSS, Eslint, TanStack Query (React Query)',
 };
 
-const GroupsPage = (): React.ReactNode => (
+const StudentsPage = (): React.ReactNode => (
   <Page>
     <h1>Студенты</h1>
-    <Groups />
+    <Students />
   </Page>
 );
 
-export default GroupsPage;
+export default StudentsPage;
